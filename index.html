@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--<script src="password.js"></script>// -->
+<script>
+
+let correct_pass = "myPassword1!";
+let secret = "my favourite colour is #000080!";
+let attempts = 1;
+
+
+
+while (attempts < 3 ) 
+   {
+    let person = prompt("please enter your password");
+    if (person === correct_pass) {
+    alert(secret);
+    }
+
+   else if (person != correct_pass ) {
+ alert("you have entered the wrong password " + attempts + " times please try again");
+ attempts +=1;
+   }
+   }
+
+
+
+  
+    
+
+
+
+
+   
+
+
+</script>
+
+
+
+</head>
+</html>
+
+
+
+</html>
